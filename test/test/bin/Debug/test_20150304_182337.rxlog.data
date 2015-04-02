@@ -1,0 +1,137 @@
+﻿<report>
+	<activity
+	user="myznikov"
+	host="A9COMP4"
+	rxversion="5.3.0.22324"
+	osversion="Windows 8 32bit"
+	runtimeversion="4.0.30319.18449"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1440x900"
+	timestamp="04.03.2015 18:23:37"
+	timestampiso="2015-03-04T16:23:37"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="e8a2b3ca04c54ee"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="1"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="test"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="1"
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="test suite"
+		rid="109ea144b2c7a73c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="TestCase"
+			testcaseid="82f296e0-622e-4d1f-8ad7-6afaf48906a1"
+			maxchildren="0"
+			result="Failed"
+			duration="0ms"
+			durationms="0"
+			type="test case"
+			rid="1ff59dbccbcc7d7"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				modulename="Recording1"
+				moduleid="b0ec60bc-8556-407f-9100-4a972b3d3166"
+				moduletype="Recording"
+				result="Failed"
+				duration="0ms"
+				durationms="0"
+				type="test module"
+				rid="10841650fbdb3548"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+					time="00:01.029"
+					level="Info"
+					category="Application">
+						<message>
+							Run application 'C:\Windows\System32\cacls.exe' with arguments '' in normal mode.
+						</message>
+						<metainfo
+						itemindex="0"
+						codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+						codeline="82"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:02.112"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence '{LWin down}r{LWin up}calc.exe{Return}'.
+						</message>
+						<metainfo
+						itemindex="1"
+						codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+						codeline="86"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:04.003"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button' at 24;14.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='132']"
+						fullname="testRepository.Calculator.Calc.Button"
+						id="ee3711d6a0eb4392ae5207e4fa6d3277"
+						timeout="90000"
+						codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+						codeline="90"
+						itemindex="2"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:10.896"
+					level="Error"
+					category="Module">
+						<message>
+							Test run was aborted by the user.
+						</message>
+						<metainfo
+						loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

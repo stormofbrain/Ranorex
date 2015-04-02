@@ -1,0 +1,277 @@
+﻿<report>
+	<activity
+	user="myznikov"
+	host="A9COMP4"
+	rxversion="5.3.0.22324"
+	osversion="Windows 8 32bit"
+	runtimeversion="4.0.30319.18449"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1440x900"
+	timestamp="04.03.2015 19:37:40"
+	timestampiso="2015-03-04T17:37:40"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="1f22ee6e329f500"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.553"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Right Click item 'Explorer.List11.List1' at 310;146.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+			fullname="testRepository.Explorer.List11.List1"
+			id="4548ca8ee64b4b19b5dbfe19e3061856"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="82"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.386"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer1.MenuItemNew' at 143;6.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='0']/?/?/menuitem[@accessiblename='New']"
+			fullname="testRepository.Explorer1.MenuItemNew"
+			id="2ee89455432c41ce829baeff1584b6f1"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:03.356"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer2.TextDocument' at 154;4.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='1']/?/?/menuitem[@accessiblename='Text Document']"
+			fullname="testRepository.Explorer2.TextDocument"
+			id="9736d95321544baa9b323e532f21f097"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="90"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.307"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer.List11.List1' at 488;334.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+			fullname="testRepository.Explorer.List11.List1"
+			id="4548ca8ee64b4b19b5dbfe19e3061856"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="94"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.101"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Right Click item 'Explorer.List11.NewTextDocument' at 33;41.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='New Text Document']"
+			fullname="testRepository.Explorer.List11.NewTextDocument"
+			id="b9d0b37ad4da4a8181796f3b1bb2d184"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="98"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.940"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer1.Delete' at 165;19.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='0']/?/?/menuitem[@accessiblename='Delete']"
+			fullname="testRepository.Explorer1.Delete"
+			id="585ec276b9554fccacdf70ed7ffa8bf4"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="102"
+			itemindex="5"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:06.878"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Right Click item 'Explorer.List11.RecycleBin' at 56;52.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Recycle Bin']"
+			fullname="testRepository.Explorer.List11.RecycleBin"
+			id="b1a7d5ec7b1242beb4c6efd5c922f3ee"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="106"
+			itemindex="6"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:07.675"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer.List11.RecycleBin' at 49;36.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Recycle Bin']"
+			fullname="testRepository.Explorer.List11.RecycleBin"
+			id="b1a7d5ec7b1242beb4c6efd5c922f3ee"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="110"
+			itemindex="7"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:08.440"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Right Click item 'Explorer.List11.RecycleBin' at 49;36.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Recycle Bin']"
+			fullname="testRepository.Explorer.List11.RecycleBin"
+			id="b1a7d5ec7b1242beb4c6efd5c922f3ee"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="114"
+			itemindex="8"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:09.306"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer1.EmptyRecycleBin' at 109;5.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='0']/?/?/menuitem[@accessiblename='Empty Recycle Bin']"
+			fullname="testRepository.Explorer1.EmptyRecycleBin"
+			id="4a746250f7b544eaa58636c53ca7b482"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="118"
+			itemindex="9"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:10.140"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click at {X=795,Y=448}.
+			</message>
+			<metainfo
+			itemindex="10"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="122"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:10.949"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'Explorer.List11.RecycleBin' at 20;41.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Recycle Bin']"
+			fullname="testRepository.Explorer.List11.RecycleBin"
+			id="b1a7d5ec7b1242beb4c6efd5c922f3ee"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="127"
+			itemindex="11"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:12.021"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating AttributeEqual (Text='This folder is empty.') on item 'RecycleBin.EmptyText'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Recycle Bin']/element[@class='ShellTabWindowClass']//element[@instance='1']/container[@caption='ShellView']/?/?/text[@automationid='EmptyText']"
+			fullname="testRepository.RecycleBin.EmptyText"
+			id="89bdf11fff9440f8ade086c09c45f452"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="131"
+			itemindex="12"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:13.077"
+		level="Success"
+		category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'testRepository.RecycleBin.EmptyText' does match the specified value.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Recycle Bin']/element[@class='ShellTabWindowClass']//element[@instance='1']/container[@caption='ShellView']/?/?/text[@automationid='EmptyText']"
+			fullname="testRepository.RecycleBin.EmptyText"
+			id="89bdf11fff9440f8ade086c09c45f452"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="132"
+			loglvl="Success"
+			itemindex="12"/>
+		</item>
+	</activity>
+</report>

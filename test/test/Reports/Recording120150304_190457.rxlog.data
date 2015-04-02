@@ -1,0 +1,143 @@
+﻿<report>
+	<activity
+	user="myznikov"
+	host="A9COMP4"
+	rxversion="5.3.0.22324"
+	osversion="Windows 8 32bit"
+	runtimeversion="4.0.30319.18449"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1440x900"
+	timestamp="04.03.2015 19:05:05"
+	timestampiso="2015-03-04T17:05:05"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="4c48830a6b35e20"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.513"
+		level="Info"
+		category="Application">
+			<message>
+				Run application 'C:\Windows\System32\calc.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="82"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.730"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button' at 18;14.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='132']"
+			fullname="testRepository.Calculator.Calc.Button"
+			id="ee3711d6a0eb4392ae5207e4fa6d3277"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.899"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button1' at 14;13.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='92']"
+			fullname="testRepository.Calculator.Calc.Button1"
+			id="c016f1ba5d7342548d9e568ce21f366a"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="90"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:03.808"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button2' at 14;16.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='139']"
+			fullname="testRepository.Calculator.Calc.Button2"
+			id="09eb4f3a786f4c33a46b542d4825cb0b"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="94"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.636"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button3' at 19;15.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='121']"
+			fullname="testRepository.Calculator.Calc.Button3"
+			id="b7729079eb714468aaaff03881e00346"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="98"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.431"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Text160' at Center.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/text[@controlid='160' and @text='18']"
+			fullname="testRepository.Calculator.Text160"
+			id="6aec0647d7294242abbdd75845a2dcc3"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="102"
+			itemindex="5"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:10.263"
+		level="Error"
+		category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

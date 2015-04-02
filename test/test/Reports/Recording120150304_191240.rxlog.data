@@ -1,0 +1,274 @@
+﻿<report>
+	<activity
+	user="myznikov"
+	host="A9COMP4"
+	rxversion="5.3.0.22324"
+	osversion="Windows 8 32bit"
+	runtimeversion="4.0.30319.18449"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1440x900"
+	timestamp="04.03.2015 19:12:48"
+	timestampiso="2015-03-04T17:12:48"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="2ec70f3fa16aa60"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Attribute 'Text' of element for item 'testRepository.Calculator.Text160' does not match the specified value (actual='', expected='36').
+		</errmsg>
+		<varbindings/>
+		<item
+		time="00:00.517"
+		level="Info"
+		category="Application">
+			<message>
+				Run application 'C:\Windows\System32\calc.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="82"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.789"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button' at 17;7.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='132']"
+			fullname="testRepository.Calculator.Calc.Button"
+			id="f9a8941047ba45329d0a475a98df3327"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.764"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button1' at 23;12.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='92']"
+			fullname="testRepository.Calculator.Calc.Button1"
+			id="8f88aa02f2d64a3cacaccef34b1ca7a5"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="90"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:03.555"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button2' at 19;13.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='139']"
+			fullname="testRepository.Calculator.Calc.Button2"
+			id="7251e249ab504e36bcfe44925efe2044"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="94"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.369"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button3' at 18;14.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='91']"
+			fullname="testRepository.Calculator.Calc.Button3"
+			id="25e92b98f2524bc786fcca793e8feb3b"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="98"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.164"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button4' at 47;11.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='130']"
+			fullname="testRepository.Calculator.Calc.Button4"
+			id="c8546ec07ae64c3bb299922c4da6a60b"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="102"
+			itemindex="5"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.977"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button5' at 15;12.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='84']"
+			fullname="testRepository.Calculator.Calc.Button5"
+			id="158373ef0acc444680456929049ebe7e"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="106"
+			itemindex="6"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:06.802"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button6' at 16;11.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='135']"
+			fullname="testRepository.Calculator.Calc.Button6"
+			id="798b16b6a59742bc83445d776b35e633"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="110"
+			itemindex="7"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:07.613"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button7' at 26;19.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='121']"
+			fullname="testRepository.Calculator.Calc.Button7"
+			id="c5a026dc8c104881a813181333993457"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="114"
+			itemindex="8"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:08.420"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Text160' at 136;32.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/text[@controlid='160']"
+			fullname="testRepository.Calculator.Text160"
+			id="db7716f213134df4aca54643f5a02879"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="118"
+			itemindex="9"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:09.225"
+		level="Info"
+		category="Validation"
+		errimg=".\Recording120150304_191240_03f30d84_trace.jpg"
+		errthumb=".\Recording120150304_191240_03f30d84_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='36') on item 'Calculator.Text160'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/text[@controlid='160']"
+			fullname="testRepository.Calculator.Text160"
+			id="db7716f213134df4aca54643f5a02879"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="122"
+			itemindex="10"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:09.411"
+		level="Failure"
+		category="Validation"
+		errimg=".\Recording120150304_191240_42498855_trace.jpg"
+		errthumb=".\Recording120150304_191240_42498855_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'testRepository.Calculator.Text160' does not match the specified value (actual='', expected='36').
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/text[@controlid='160']"
+			fullname="testRepository.Calculator.Text160"
+			id="db7716f213134df4aca54643f5a02879"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="123"
+			loglvl="Failure"
+			itemindex="10"/>
+		</item>
+		<item
+		time="00:09.613"
+		level="Error"
+		category="Module"
+		errimg=".\Recording120150304_191240_7261f40e_trace.jpg"
+		errthumb=".\Recording120150304_191240_7261f40e_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'testRepository.Calculator.Text160' does not match the specified value (actual='', expected='36').
+			</message>
+			<metainfo
+			stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at test.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs:line 123
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="123"
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/text[@controlid='160']"
+			fullname="testRepository.Calculator.Text160"
+			id="db7716f213134df4aca54643f5a02879"
+			timeout="60000"
+			loglvl="Error"
+			itemindex="10"/>
+		</item>
+	</activity>
+</report>

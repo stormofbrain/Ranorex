@@ -1,0 +1,8 @@
+C:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\bin\Debug\test.rxtmg
+C:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\bin\Debug\test.rxtst
+C:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\bin\Debug\test.exe.config
+C:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\bin\Debug\test.exe
+C:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\bin\Debug\test.pdb
+C:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\obj\x86\Debug\test.csprojResolveAssemblyReference.cache
+C:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\obj\x86\Debug\test.exe
+C:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\obj\x86\Debug\test.pdb

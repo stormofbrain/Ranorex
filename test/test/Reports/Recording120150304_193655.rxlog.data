@@ -1,0 +1,82 @@
+﻿<report>
+	<activity
+	user="myznikov"
+	host="A9COMP4"
+	rxversion="5.3.0.22324"
+	osversion="Windows 8 32bit"
+	runtimeversion="4.0.30319.18449"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1440x900"
+	timestamp="04.03.2015 19:37:05"
+	timestampiso="2015-03-04T17:37:05"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="8d039fea570d208"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.514"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120150304_193655_5c47ac44_trace.jpg"
+		errthumb=".\Recording120150304_193655_5c47ac44_trace_thumb.jpg">
+			<message>
+				Mouse Right Click item 'Explorer.List11.List1' at 310;146.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+			fullname="testRepository.Explorer.List11.List1"
+			id="4548ca8ee64b4b19b5dbfe19e3061856"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="82"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.296"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120150304_193655_c0ef6173_trace.jpg"
+		errthumb=".\Recording120150304_193655_c0ef6173_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Explorer1.MenuItemNew' at 143;6.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='0']/?/?/menuitem[@accessiblename='New']"
+			fullname="testRepository.Explorer1.MenuItemNew"
+			id="2ee89455432c41ce829baeff1584b6f1"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:21.470"
+		level="Error"
+		category="User"
+		errimg=".\Recording120150304_193655_5d07ee6b_trace.jpg"
+		errthumb=".\Recording120150304_193655_5d07ee6b_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

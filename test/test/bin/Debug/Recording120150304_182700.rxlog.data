@@ -1,0 +1,166 @@
+﻿<report>
+	<activity
+	user="myznikov"
+	host="A9COMP4"
+	rxversion="5.3.0.22324"
+	osversion="Windows 8 32bit"
+	runtimeversion="4.0.30319.18449"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1440x900"
+	timestamp="04.03.2015 18:27:17"
+	timestampiso="2015-03-04T16:27:17"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="2164215849d83a35"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'testRepository.Calculator.Text160'.
+		</errmsg>
+		<varbindings/>
+		<item
+		time="00:01.220"
+		level="Info"
+		category="Application">
+			<message>
+				Run application 'C:\Windows\System32\calc.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="82"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:01.713"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button' at 18;14.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='132']"
+			fullname="testRepository.Calculator.Calc.Button"
+			id="ee3711d6a0eb4392ae5207e4fa6d3277"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:06.372"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button1' at 14;13.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='92']"
+			fullname="testRepository.Calculator.Calc.Button1"
+			id="c016f1ba5d7342548d9e568ce21f366a"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="90"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:07.623"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button2' at 14;16.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='139']"
+			fullname="testRepository.Calculator.Calc.Button2"
+			id="09eb4f3a786f4c33a46b542d4825cb0b"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="94"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:08.495"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120150304_182700_6b493ee1_trace.jpg"
+		errthumb=".\Recording120150304_182700_6b493ee1_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button3' at 19;15.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='121']"
+			fullname="testRepository.Calculator.Calc.Button3"
+			id="b7729079eb714468aaaff03881e00346"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="98"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:09.338"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120150304_182700_de10ab8d_trace.jpg"
+		errthumb=".\Recording120150304_182700_de10ab8d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Calculator.Text160' at 169;40.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/text[@controlid='160' and @text='18']"
+			fullname="testRepository.Calculator.Text160"
+			id="6aec0647d7294242abbdd75845a2dcc3"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="102"
+			itemindex="5"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:39.925"
+		level="Error"
+		category="Module"
+		errimg=".\Recording120150304_182700_b7022ff7_trace.jpg"
+		errthumb=".\Recording120150304_182700_b7022ff7_trace_thumb.jpg">
+			<message>
+				Failed to find item 'testRepository.Calculator.Text160'.<br/>No element found for path '?/?/text[@controlid='160' and @text='18']' within 30s.
+			</message>
+			<metainfo
+			stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at test.testRepositoryFolders.CalculatorAppFolder.get_Text160() in c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\testRepository.cs:line 133
+   at test.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs:line 103
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="103"
+			type="repoitem"
+			path="/form[@title='Calculator']/?/?/text[@controlid='160' and @text='18']"
+			fullname="testRepository.Calculator.Text160"
+			id="6aec0647d7294242abbdd75845a2dcc3"
+			timeout="60000"
+			loglvl="Error"
+			itemindex="5"/>
+		</item>
+	</activity>
+</report>

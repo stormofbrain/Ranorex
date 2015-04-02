@@ -1,0 +1,225 @@
+﻿<report>
+	<activity
+	user="myznikov"
+	host="A9COMP4"
+	rxversion="5.3.0.22324"
+	osversion="Windows 8 32bit"
+	runtimeversion="4.0.30319.18449"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="1440x900"
+	timestamp="04.03.2015 19:31:46"
+	timestampiso="2015-03-04T17:31:46"
+	module="Recording1"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="eeef9ccbf665ef0"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'testRepository.DeleteMultipleItems.ButtonYes'.
+		</errmsg>
+		<varbindings/>
+		<item
+		time="00:00.544"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Right Click item 'Explorer.List11.List1' at 197;62.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+			fullname="testRepository.Explorer.List11.List1"
+			id="569e1ae5b3a34081bd0dbb91fddef1d0"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="82"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.638"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer1.TextDocument' at 99;7.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@class='#32768' and @instance='1']/?/?/menuitem[@accessiblename='Text Document']"
+			fullname="testRepository.Explorer1.TextDocument"
+			id="5ee97a64d7f74bcbaef352d1f874cb95"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="86"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:11.909"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer.List11.List1' at 248;180.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']"
+			fullname="testRepository.Explorer.List11.List1"
+			id="569e1ae5b3a34081bd0dbb91fddef1d0"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="90"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:12.767"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Right Click item 'Explorer.List11.NewTextDocument' at 52;36.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='New Text Document']"
+			fullname="testRepository.Explorer.List11.NewTextDocument"
+			id="e4af37f148634a1aa2fc176d8cdc52c0"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="94"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:13.590"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer2.Delete' at 198;17.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='Delete']"
+			fullname="testRepository.Explorer2.Delete"
+			id="1947ab3204d9491485098d13a9026e33"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="98"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:14.490"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer.List11.RecycleBin' at 52;54.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Recycle Bin']"
+			fullname="testRepository.Explorer.List11.RecycleBin"
+			id="4eeb6afdf6fe46f7beb6a6db0db08582"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="102"
+			itemindex="5"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:15.279"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Right Click item 'Explorer.List11.RecycleBin' at 52;54.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Recycle Bin']"
+			fullname="testRepository.Explorer.List11.RecycleBin"
+			id="4eeb6afdf6fe46f7beb6a6db0db08582"
+			timeout="90000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="106"
+			itemindex="6"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:16.116"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120150304_193138_f908037d_trace.jpg"
+		errthumb=".\Recording120150304_193138_f908037d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Explorer2.EmptyRecycleBin' at 140;19.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@processname='explorer']/?/?/menuitem[@accessiblename='Empty Recycle Bin']"
+			fullname="testRepository.Explorer2.EmptyRecycleBin"
+			id="c92e38368d8f4495914a3f68f8f71a67"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="110"
+			itemindex="7"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:16.995"
+		level="Info"
+		category="Mouse"
+		errimg=".\Recording120150304_193138_d480c9eb_trace.jpg"
+		errthumb=".\Recording120150304_193138_d480c9eb_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'DeleteMultipleItems.ButtonYes' at 66;9.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Delete Multiple Items']/button[@text='&amp;Yes']"
+			fullname="testRepository.DeleteMultipleItems.ButtonYes"
+			id="4e7a148e5a764810988f82f69beb5a32"
+			timeout="60000"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="114"
+			itemindex="8"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="01:17.588"
+		level="Error"
+		category="Module"
+		errimg=".\Recording120150304_193138_bcb09f25_trace.jpg"
+		errthumb=".\Recording120150304_193138_bcb09f25_trace_thumb.jpg">
+			<message>
+				Failed to find item 'testRepository.DeleteMultipleItems.ButtonYes'.<br/>No element found for path '/form[@title='Delete Multiple Items']/button[@text='&amp;Yes']' within 1m.
+			</message>
+			<metainfo
+			stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at test.testRepositoryFolders.DeleteMultipleItemsAppFolder.get_ButtonYes() in c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\testRepository.cs:line 513
+   at test.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs:line 115
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+			codefile="c:\Users\TEMP\Documents\Ranorex\RanorexStudio Projects\test\test\Recording1.cs"
+			codeline="115"
+			type="repoitem"
+			path="/form[@title='Delete Multiple Items']/button[@text='&amp;Yes']"
+			fullname="testRepository.DeleteMultipleItems.ButtonYes"
+			id="4e7a148e5a764810988f82f69beb5a32"
+			timeout="60000"
+			loglvl="Error"
+			itemindex="8"/>
+		</item>
+	</activity>
+</report>
